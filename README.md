@@ -1,6 +1,6 @@
 # My Favorite Places
 
-An interactive map that highlights a few favorite destinations using Flask on the backend and Leaflet on the frontend. The app is intentionally lightweight so it can be deployed quickly on Replit (or any other simple hosting platform).
+An interactive map that highlights a few favorite destinations using Flask on the backend and Leaflet on the frontend. The app is intentionally lightweight so it can be deployed quickly on Render (or any other simple hosting platform).
 
 ## Features
 
@@ -36,6 +36,10 @@ data/
 docs/
   ARCHITECTURE.md   # Design and technology rationale
 ```
+
+## Deployment
+
+The production instance runs on Render: https://favorite-places.onrender.com. Render automatically builds the app from the repository and runs it with `python -m app` whenever new changes are pushed.
 
 ## Extending the App
 
