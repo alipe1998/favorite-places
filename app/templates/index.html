@@ -30,6 +30,64 @@
         <div id="place-details" class="place-details">
           <p>Select a pin on the map to read more about that location.</p>
         </div>
+
+        <div class="divider" role="presentation"></div>
+
+        <section class="form-section" aria-label="Add a new favorite place">
+          <h2>Add a favorite place</h2>
+          <p class="form-description">
+            Share a location you love by filling out the form below. The map will
+            update instantly with your new pin.
+          </p>
+          <form id="add-place-form" novalidate>
+            <div class="form-field">
+              <label for="place-name">Name</label>
+              <input
+                type="text"
+                id="place-name"
+                name="name"
+                placeholder="Location name"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="place-description">Description</label>
+              <textarea
+                id="place-description"
+                name="description"
+                rows="3"
+                placeholder="Why is this place special?"
+                required
+              ></textarea>
+            </div>
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="place-latitude">Latitude</label>
+                <input
+                  type="text"
+                  id="place-latitude"
+                  name="latitude"
+                  inputmode="decimal"
+                  placeholder="e.g. 37.7749"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label for="place-longitude">Longitude</label>
+                <input
+                  type="text"
+                  id="place-longitude"
+                  name="longitude"
+                  inputmode="decimal"
+                  placeholder="e.g. -122.4194"
+                  required
+                />
+              </div>
+            </div>
+            <button type="submit" class="submit-button">Add place</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </section>
       </section>
     </main>
 
