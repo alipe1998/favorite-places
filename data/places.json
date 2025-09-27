@@ -1,20 +1,74 @@
 [
   {
-    "name": "Golden Gate Bridge",
-    "description": "Iconic suspension bridge connecting San Francisco and Marin County.",
-    "latitude": 37.8199,
-    "longitude": -122.4783
+    "name": "Indian Creek, Utah",
+    "description": "Known for epic crack climbs.",
+    "latitude": 38.0167,
+    "longitude": -109.6167
   },
   {
-    "name": "Central Park",
-    "description": "Urban park in Manhattan with scenic walking trails and lakes.",
-    "latitude": 40.785091,
-    "longitude": -73.968285
+    "name": "Golden, Colorado",
+    "description": "Home of Mines, and epic slacklining parks like Kafadar Commons.",
+    "latitude": 39.7555,
+    "longitude": -105.2211
   },
   {
-    "name": "Eiffel Tower",
-    "description": "Wrought-iron lattice tower on the Champ de Mars in Paris.",
-    "latitude": 48.85837,
-    "longitude": 2.294481
+    "name": "The Fruit Bowl, Utah",
+    "description": "Famous highlining area in the desert.",
+    "latitude": 38.5655,
+    "longitude": -109.6665
+  },
+  {
+    "name": "Montserrat, Spain",
+    "description": "Mountain and monastery with awesome Catalonian culture.",
+    "latitude": 41.5956,
+    "longitude": 1.8336
+  },
+  {
+    "name": "Santiago de Compostela, Spain",
+    "description": "End of the pilgrimage of the Camino de Santiago.",
+    "latitude": 42.8806,
+    "longitude": -8.5463
+  },
+  {
+    "name": "Enchanted Rock, Texas",
+    "description": "Home of awesome crack climbing and fun boulders.",
+    "latitude": 30.5061,
+    "longitude": -98.8194
+  },
+  {
+    "name": "Fort Davis, Texas",
+    "description": "Childhood camping spot in West Texas.",
+    "latitude": 30.5888,
+    "longitude": -103.8941
+  },
+  {
+    "name": "Santa Fe, New Mexico",
+    "description": "Childhood place where grandparents lived.",
+    "latitude": 35.687,
+    "longitude": -105.9378
+  },
+  {
+    "name": "Los Fresnos, Texas",
+    "description": "Home of other grandparents and where family came from.",
+    "latitude": 26.0715,
+    "longitude": -97.4786
+  },
+  {
+    "name": "Aguascalientes, Mexico",
+    "description": "Home of girlfriend and her family.",
+    "latitude": 21.8853,
+    "longitude": -102.2916
+  },
+  {
+    "name": "Pau, France",
+    "description": "Place with awesome French people and bike mechanics.",
+    "latitude": 43.2951,
+    "longitude": -0.3708
+  },
+  {
+    "name": "Granada, Spain",
+    "description": "Home of the Alhambra and stronghold of the last Muslim Kingdom in the Iberian Peninsula",
+    "latitude": 37.1773,
+    "longitude": -3.5986
   }
 ]
