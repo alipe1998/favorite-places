@@ -1,0 +1,86 @@
+:root {
+  color-scheme: light dark;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.page-header,
+.page-footer {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.tagline {
+  margin: 0.5rem 0 0;
+  font-weight: 300;
+}
+
+.map-section {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+}
+
+.info-panel {
+  background-color: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.place-details h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #38bdf8;
+}
+
+.place-details p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 960px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  #map {
+    min-height: 320px;
+  }
+}
+
+.leaflet-popup-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
