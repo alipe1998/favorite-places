@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Favorite Places</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-o9N1j7kG22J8v+g32AxXo2jcRmxN67+r2a1iLV6oBDo="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>My Favorite Places</h1>
+      <p class="tagline">
+        Explore a curated list of destinations using an interactive Leaflet map.
+      </p>
+    </header>
+
+    <main>
+      <section class="map-section">
+        <div id="map" aria-label="Favorite places map"></div>
+      </section>
+
+      <section class="info-panel" aria-live="polite">
+        <h2>Place details</h2>
+        <div id="place-details" class="place-details">
+          <p>Select a pin on the map to read more about that location.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      Built with Flask and Leaflet.
+    </footer>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-o9N1j7kG22J8v+g32AxXo2jcRmxN67+r2a1iLV6oBDo="
+      crossorigin=""
+    ></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}" defer></script>
+  </body>
+</html>
