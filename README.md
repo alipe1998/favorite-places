@@ -12,10 +12,10 @@ An interactive map that highlights a few favorite destinations using Flask on th
 ## Running Locally
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m app
+python3 -m app
 ```
 
 Then open http://127.0.0.1:5000/ in your browser.
